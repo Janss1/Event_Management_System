@@ -47,7 +47,7 @@
     <aside class="sidebar flex flex-col py-6">
         {{-- Logo --}}
         <div class="px-5 mb-8">
-            <div class="text-white font-bold text-lg tracking-tight"> EventMS</div>
+            <div class="text-white font-bold text-lg tracking-tight">A-Zure</div>
             <div class="text-xs text-blue-300 mt-0.5">Event Management System</div>
         </div>
 

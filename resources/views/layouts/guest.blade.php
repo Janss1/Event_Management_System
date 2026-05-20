@@ -60,7 +60,9 @@
 <div class="flex min-h-screen">
     {{-- Left panel --}}
     <div class="auth-left w-2/5 hidden lg:flex flex-col items-center justify-center px-12 text-white">
-        <div class="text-4xl font-bold mb-4 leading-tight">Event Management System</div>
+        <img src="{{ asset('images/logo.png') }}" alt="Logo" class="w-40 h-40 object-contain mb-4">
+        <div class="text-4xl font-bold mb-4 leading-tight">A-Zure</div>
+        <div class="text-2xl font-bold mb-4 leading-tight">Event Management System</div>
         <div class="text-blue-300 text-sm leading-relaxed mt-2 max-w-xs">
             Organize, manage, and track your events efficiently in one centralized platform.
         </div>
