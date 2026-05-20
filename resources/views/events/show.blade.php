@@ -137,7 +137,7 @@
                         <tbody class="divide-y divide-gray-50">
                             @foreach($attendees as $attendee)
                             <tr class="hover:bg-gray-50 {{ $attendee->checked_in ? 'bg-green-50' : '' }}">
-                                <td class="px-4 py-3 font-medium text-gray-800">{{ $attendee->attendee_name }}</td>
+                                <td class="px-4 py-3 font-medium text-gray-800">{{ $attendee->full_name }}</td>
                                 <td class="px-4 py-3 text-gray-500 text-xs">{{ $attendee->contact_number ?? '—' }}</td>
                                 <td class="px-4 py-3">
                                     <code class="bg-gray-100 text-gray-700 px-2 py-0.5 rounded text-xs font-mono">
